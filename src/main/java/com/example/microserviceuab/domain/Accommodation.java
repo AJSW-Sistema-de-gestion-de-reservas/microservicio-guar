@@ -1,9 +1,9 @@
-package com.example.microserviceuar.domain;
+package com.example.microserviceuab.domain;
 
-import jakarta.persistence.Id;
 import java.util.List;
 import java.util.UUID;
 import lombok.Data;
+import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.index.IndexDirection;
 import org.springframework.data.mongodb.core.index.Indexed;
 import org.springframework.data.mongodb.core.mapping.Document;
@@ -27,5 +27,5 @@ public class Accommodation {
     public String getFullAddress() {
         return String.format("%s, %s %s, %s", address, city, postalCode, province);
     }
-    
+
 }

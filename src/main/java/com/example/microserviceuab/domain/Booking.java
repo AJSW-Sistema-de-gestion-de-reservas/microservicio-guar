@@ -1,7 +1,7 @@
-package com.example.microserviceuar.domain;
+package com.example.microserviceuab.domain;
 
-import jakarta.persistence.Id;
 import java.util.UUID;
+import org.springframework.data.annotation.Id;
 
 public class Booking {
 
@@ -11,5 +11,5 @@ public class Booking {
     private UUID userId;
     private double amount;
     private boolean paid;
-    
+
 }

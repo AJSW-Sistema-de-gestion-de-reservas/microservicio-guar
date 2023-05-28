@@ -1,4 +1,4 @@
-package com.example.microserviceuar;
+package com.example.microserviceuab;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -1,4 +1,4 @@
-package com.example.microserviceuar.config;
+package com.example.microserviceuab.config;
 
 import org.springframework.context.annotation.Configuration;
 
