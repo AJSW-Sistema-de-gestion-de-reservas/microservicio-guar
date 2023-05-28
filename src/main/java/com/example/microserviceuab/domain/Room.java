@@ -1,7 +1,7 @@
-package com.example.microserviceuar.domain;
+package com.example.microserviceuab.domain;
 
-import jakarta.persistence.Id;
 import java.util.UUID;
+import org.springframework.data.annotation.Id;
 
 public class Room {
 
@@ -9,5 +9,5 @@ public class Room {
     private UUID id;
     private String name;
     private String capacity;
-    
+
 }

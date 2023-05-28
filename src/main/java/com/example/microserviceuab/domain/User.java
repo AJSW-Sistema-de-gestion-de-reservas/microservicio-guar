@@ -1,8 +1,7 @@
-package com.example.microserviceuar.domain;
+package com.example.microserviceuab.domain;
 
-import jakarta.persistence.Id;
-import java.util.UUID;
 import lombok.Data;
+import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.index.IndexDirection;
 import org.springframework.data.mongodb.core.index.Indexed;
 import org.springframework.data.mongodb.core.mapping.Document;
@@ -12,7 +11,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 public class User {
 
     @Id
-    private UUID id;
+    private String id;
     @Indexed(unique = true, direction = IndexDirection.DESCENDING)
     private String username;
     private String password;
